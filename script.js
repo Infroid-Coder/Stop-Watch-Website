@@ -56,11 +56,11 @@ function stopWatch() {
 function startStop(){
     if (stat == "paused"){
         interval = window.setInterval(stopWatch, 1000);
-        startstop.innerHTML = "Resume";
+        startstop.innerHTML = "Pause";
         stat = "resumed";
     } else{
         window.clearInterval(interval)
-        startstop.innerHTML = "Pause";
+        startstop.innerHTML = "Resume";
         stat = "paused";
     }
 }
