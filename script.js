@@ -67,9 +67,9 @@ function startStop(){
 
 function Reset(){
     window.clearInterval(interval)
-    let dseconds = 0;
-    let dminutes = 0;
-    let dhours = 0;
+    let dSeconds = 0;
+    let dMinutes = 0;
+    let dHours = 0;
     watch.innerHTML = "00:00:00";
     startstop.innerHTML = "Start";
 }
